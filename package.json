@@ -1,5 +1,5 @@
 {
-  "name": "actor-github-repositories-search",
+  "name": "actor-github-repositories-search-scraper",
   "version": "0.0.1",
   "description": "Apify Actor: Github Repositories Search",
   "main": "index.js",
