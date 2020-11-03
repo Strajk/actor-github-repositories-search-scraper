@@ -1,0 +1,25 @@
+{
+  "title": "GitHub Repositories Search input",
+  "type": "object",
+  "schemaVersion": 1,
+  "required": [
+    "queries"
+  ],
+  "properties": {
+    "queries": {
+      "title": "Queries",
+      "type": "array",
+      "description": "Search queries",
+      "editor": "stringList",
+      "prefill": [
+        "apify"
+      ]
+    },
+    "token": {
+      "title": "Token",
+      "type": "string",
+      "description": "GitHub token",
+      "editor": "textfield"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "actor-github-repositories-search",
+  "version": "0.0.1",
+  "description": "Apify Actor: Github Repositories Search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "apify"
+  ],
+  "author": "Pavel 'Strajk' Dolecek <strajk@me.com> (https://www.strajk.me/)",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "~18.0.6",
+    "apify": "~0.21.8"
+  },
+  "devDependencies": {
+    "@apify/eslint-config": "~0.1.3",
+    "eslint": "~7.12.1",
+    "json2csv": "~5.0.3"
+  }
+}
