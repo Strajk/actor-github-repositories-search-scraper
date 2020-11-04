@@ -9,7 +9,7 @@ Apify.main(async () => {
     } = input;
 
     // Prepare request queue
-    const requestQueue = await Apify.openRequestQueue('queries');
+    const requestQueue = await Apify.openRequestQueue();
     for (const x of queries) {
         await requestQueue.addRequest({ url: x }); // not really url, but RequestList requires key `url`
     }
