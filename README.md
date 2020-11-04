@@ -4,7 +4,10 @@ Apify actor for extracting repositories from GitHub based on search queries
 
 ## Input attributes
 
-See [INPUT SCHEMA](./INPUT_SCHEMA.json)
+* Queries – array of search queries, e.g. ['apify', 'actor']
+* Token (optional) – GitHub API token, when provided, API rate limit increase from 10 to 30 request per minute.
+
+For more info, see [INPUT SCHEMA](./INPUT_SCHEMA.json)
 
 ## Output examples
 
